@@ -1,0 +1,26 @@
+@tailwind base;
+
+#app{
+  font-family: 'Montserrat', sans-serif;
+}
+.pg-loaded{
+  font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    background-image: linear-gradient(to right,#f07229,#ff9953);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+    color: white;
+} 
+.top-banner{
+    margin-top: 5em;
+    background-image: linear-gradient(to right,#11998e,#38ef7d);
+  }
+  
+@tailwind components;
+@tailwind utilities;
